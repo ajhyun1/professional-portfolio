@@ -21,7 +21,7 @@ It follows the same four goals as my Professional Learning Report (Assessment Ta
 | 1. Ethics & Indigenous capability | Working Ethically + Indigenous Professional Capability | Both modules completed; Assessment 2 submitted |
 | 2. Cybersecurity foundations | Introduction to Cybersecurity | Quiz 1: 19.5/20 · Quiz 2: 19/20 · Assessment 3 submitted |
 | 3. Software development tools | Software Development: GitHub Essentials & Workflow | Quiz 1: 9/10 · Quiz 2: 9/10 · Workflow activities completed |
-| 4. Cloud & containers | Supported by 42891 Infrastructure for Cloud Computing | Quiz 1: 20/20 · Quiz 2: 20/20 |
+| 4. Cloud & containers | Docker Essentials, supported by 42891 Infrastructure for Cloud Computing | Docker installed and running · 42891 Quiz 1: 20/20 · Quiz 2: 20/20 |
 
 ### Goal 1 – Ethics and Indigenous Professional Capability
 I completed both ethics modules, covering the ACS Code of Ethics, privacy, intellectual
@@ -50,11 +50,17 @@ each commit to the README, and commits back to `main` using `GITHUB_TOKEN`.
 
 ### Goal 4 – Cloud Infrastructure and Containers
 My main cloud learning this semester came from 42891 Infrastructure for Cloud Computing
-(see below), which my learning plan listed as a resource for this goal. Outside my
-subjects, I have also completed most of an AWS Cloud Practitioner course, which I plan
-to finish and sit the exam for in the summer break.
+(see below), which my learning plan listed as a resource for this goal.
 
 ![42891 quiz results](images/fig4-cloud.png)
+
+I also installed Docker Desktop and ran my first containers, including an
+nginx web server on localhost:8080.
+
+![Docker running nginx locally](images/fig4-docker.png)
+
+Outside my subjects, I have also completed most of an AWS Cloud Practitioner course,
+which I plan to finish and sit the exam for in the summer break.
 
 ---
 
@@ -63,32 +69,4 @@ to finish and sit the exam for in the summer break.
 ### 32547 UNIX Systems Programming (Spring 2026)
 Practical systems programming in the UNIX environment: command line, bash shell
 scripting, Python scripting, regular expressions in shell and Python, and sockets
-and inter-process communication.
-
-| Assessment | Result |
-|---|---|
-| Programming Test – Unix shell | 20/20 |
-| Multiple Choice – Unix | 14.33/15 |
-| Programming Test – Python | 20/20 |
-
-![32547 UNIX Systems Programming results](images/unix-results.png)
-
-### 42891 Infrastructure for Cloud Computing (Spring 2026)
-Hands-on labs in cloud virtualisation and data-centre infrastructure: building VMs on
-VMware ESXi, iSCSI and NFS storage, vCenter Server and VM migration, virtual switches
-and resource management, plus cloud security and public vs private cloud. Group
-project: a cloud infrastructure design and prototype for SmartV (I wrote the business
-requirements).
-
-| Assessment | Result |
-|---|---|
-| Quiz 1 | 20/20 |
-| Quiz 2 | 20/20 |
-
----
-
-## Next steps
-1. AWS Certified Cloud Practitioner – Dec 2026 to Feb 2027
-2. Hands-on Docker and Terraform with GitHub Actions – 2027
-3. Security scanning in the CI/CD pipeline – 2027
-4. AWS Solutions Architect – Associate and Kubernetes (EKS) – late 2027 to 2028
+and
