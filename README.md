@@ -41,6 +41,11 @@ a layered defence based on the Essential Eight and Zero Trust.
 
 ![Cybersecurity results](images/fig2-cyber.png)
 
+The attack chain from my analysis, showing where Medibank's controls failed
+(based on the OAIC's alleged timeline):
+
+![Medibank attack chain from my incident analysis](images/fig2-medibank.png)
+
 ### Goal 3 – Software Development Tools
 I completed GitHub Essentials and GitHub Workflow. In a team repository, I built a
 GitHub Actions workflow in YAML that updates a web page for each team member, logs
