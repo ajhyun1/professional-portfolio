@@ -18,9 +18,9 @@ It follows the same four goals as my Professional Learning Report (Assessment Ta
 
 | Goal | Learning | Result |
 |---|---|---|
-| 1. Ethics & Indigenous capability | Working Ethically + Indigenous Professional Capability | Both modules completed; Assessment 2 submitted |
+| 1. Ethics & Indigenous capability | Working Ethically + Indigenous Professional Capability | Both modules completed, Assessment 2 submitted |
 | 2. Cybersecurity foundations | Introduction to Cybersecurity | Quiz 1: 19.5/20 · Quiz 2: 19/20 · Assessment 3 submitted |
-| 3. Software development tools | Software Development: GitHub Essentials & Workflow | Quiz 1: 9/10 · Quiz 2: 9/10 · Workflow activities completed |
+| 3. Software development tools | Software Development: GitHub Essentials & Workflow | Quiz 1: 9/10 · Quiz 2: 9/10 · Own workflow built and debugged |
 | 4. Cloud & containers | Software Development: Docker Essentials, supported by 42891 | Python app containerised and debugged · 42891 Quiz 1: 20/20 · Quiz 2: 20/20 |
 
 ### Goal 1 – Ethics and Indigenous Professional Capability
@@ -33,8 +33,8 @@ Indigenous artists instead.
 ![Ethics modules completed in Canvas](images/fig1-ethics.png)
 
 ### Goal 2 – Cybersecurity Foundations
-I completed the cybersecurity module: security goals and risk assessment; cyber threat
-intelligence and secure coding; and an incident analysis. For Assessment 3, I analysed
+I completed the cybersecurity module: security goals and risk assessment, cyber threat
+intelligence and secure coding, and an incident analysis. For Assessment 3, I analysed
 the 2022 Medibank data-extortion attack. I traced how a stolen contractor password and
 a VPN without multi-factor authentication exposed 9.7 million customers, and proposed
 a layered defence based on the Essential Eight and Zero Trust.
@@ -47,11 +47,18 @@ The attack chain from my analysis, showing where Medibank's controls failed
 ![Medibank attack chain from my incident analysis](images/fig2-medibank.png)
 
 ### Goal 3 – Software Development Tools
-I completed GitHub Essentials and GitHub Workflow. In a team repository, I built a
-GitHub Actions workflow in YAML that updates a web page for each team member, logs
-each commit to the README, and commits back to `main` using `GITHUB_TOKEN`.
+I completed GitHub Essentials and GitHub Workflow. In my own repository,
+[github-workflow-demo](https://github.com/ajhyun1/github-workflow-demo), I built a
+GitHub Actions workflow in YAML that runs on every push, updates `index.html` only
+for my username, logs each commit to the README, and commits back to `main`.
+
+My first run failed with "Invalid workflow file": a colon and space inside an
+unquoted command broke the YAML on line 25. I fixed it by moving the command into
+a `run: |` block, and the next run passed.
 
 ![GitHub quiz results](images/fig3-github.png)
+
+![My GitHub Actions workflow: failed run, fix, and passing run](images/fig3-workflow.png)
 
 ### Goal 4 – Cloud Infrastructure and Containers
 
